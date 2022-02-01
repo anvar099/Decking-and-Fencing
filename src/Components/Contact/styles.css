@@ -1,0 +1,109 @@
+.contact-container {
+  width: 100%;
+  height: auto;
+  background-image: url(../../Assats/Images/garden-bg1.jpg);
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+  object-fit: cover;
+  mix-blend-mode: darken;
+  color: white;
+}
+.contact-title-box{
+  align-items: center;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.contact-title{
+  margin-top: 80px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.contact-title-mini{
+  line-height: 30px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  width: 40%;
+  text-align: center;
+  margin-top: 15px;
+}
+@media(max-width: 992px) {
+  .contact-title-mini {
+    width: 70%;
+  }
+}
+.contact-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media(max-width: 992px) {
+  .contact-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contact-row-2{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 0 -70px;
+  margin-top: 70px;
+  align-items: center;
+  background-color:rgba(201, 191, 191, 0.5)
+}
+@media(max-width: 992px) {
+  .contact-row-2 {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+.contact-icon-box{
+  color: #504992;
+  font-size: 50px;
+  margin: 0 20px;
+}
+.contact-time{
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.contact-paragraph{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 25px;
+  margin-top: 5px;
+  width: 70%;
+  margin-bottom: 25px;
+}
+.contact-btn-box{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.contact-btn{
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  width: 220px;
+  height: 40px;
+  background-color: white;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.contact-btn:hover{
+  text-decoration: none;
+  color: black;
+  background-color: rgb(184, 181, 181);
+}
